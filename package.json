@@ -1,0 +1,31 @@
+{
+  "name": "thxcoin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "truffle": "^4.0.0-beta.2",
+    "zeppelin-solidity": "^1.3.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^2.0.2"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maraoz/thxcoin.git"
+  },
+  "author": "maraoz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maraoz/thxcoin/issues"
+  },
+  "homepage": "https://github.com/maraoz/thxcoin#readme"
+}
