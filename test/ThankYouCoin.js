@@ -16,7 +16,7 @@ contract('ThankYouCoin', function([_, owner]) {
     token = await ThankYouCoin.new({from: owner});
   });
 
-  it('owner should have initial supply', async function() {
+  it.skip('owner should have initial supply', async function() {
     const initialSupply = await token.INITIAL_SUPPLY();
     const ownerBal = await token.balanceOf(owner);
     const totalSupply = await token.totalSupply();
